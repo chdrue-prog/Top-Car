@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function initInventory() {
         const storedInventory = localStorage.getItem("topcar_inventory");
         const dbVersion = localStorage.getItem("topcar_db_version");
-        const currentVersion = "1.2"; // Force upgrade to load live parsed cars
+        const currentVersion = "1.3"; // Force upgrade to load live parsed cars with images slider
         
         if (storedInventory && dbVersion === currentVersion) {
             try {
@@ -473,10 +473,34 @@ document.addEventListener("DOMContentLoaded", () => {
                </div>`;
 
         carDetailModalBody.innerHTML = `
-            <div class="detail-hero-wrapper">
-                <img class="detail-hero-img" src="${car.image}" alt="${car.brand} ${car.model}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80'" />
-                <div class="detail-hero-gradient"></div>
-                ${soldBadgeHTML}
+            <div class="detail-gallery-container">
+                <div class="detail-gallery-main-wrapper">
+                    <img class="detail-gallery-active-img" src="${car.image}" alt="${car.brand} ${car.model}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80'" />
+                    <div class="detail-hero-gradient"></div>
+                    ${soldBadgeHTML}
+                    
+                    <!-- Navigation Arrows (only if multiple images) -->
+                    ${car.images && car.images.length > 1 ? `
+                        <button class="gallery-nav-btn gallery-prev-btn" title="Forrige billede">
+                            <span class="material-symbols-outlined">chevron_left</span>
+                        </button>
+                        <button class="gallery-nav-btn gallery-next-btn" title="Næste billede">
+                            <span class="material-symbols-outlined">chevron_right</span>
+                        </button>
+                        <span class="gallery-counter">1 / ${car.images.length}</span>
+                    ` : ''}
+                </div>
+                
+                <!-- Thumbnails Strip -->
+                ${car.images && car.images.length > 1 ? `
+                    <div class="detail-gallery-thumbs-strip">
+                        ${car.images.map((img, index) => `
+                            <div class="gallery-thumb-item ${index === 0 ? 'active' : ''}" data-index="${index}">
+                                <img src="${img}" alt="Billede ${index + 1}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=150&q=80'" />
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
             </div>
             
             <div class="detail-content-wrap">
@@ -542,6 +566,55 @@ document.addEventListener("DOMContentLoaded", () => {
         carDetailModal.classList.add("open");
         modalOverlay.classList.add("open");
         document.body.style.overflow = "hidden";
+
+        // Bind gallery navigation
+        if (car.images && car.images.length > 1) {
+            let activeImgIndex = 0;
+            const activeImg = carDetailModalBody.querySelector(".detail-gallery-active-img");
+            const counter = carDetailModalBody.querySelector(".gallery-counter");
+            const thumbs = carDetailModalBody.querySelectorAll(".gallery-thumb-item");
+            const prevBtn = carDetailModalBody.querySelector(".gallery-prev-btn");
+            const nextBtn = carDetailModalBody.querySelector(".gallery-next-btn");
+            
+            function updateActiveImage(index) {
+                activeImgIndex = (index + car.images.length) % car.images.length;
+                activeImg.src = car.images[activeImgIndex];
+                if (counter) {
+                    counter.textContent = `${activeImgIndex + 1} / ${car.images.length}`;
+                }
+                
+                thumbs.forEach((thumb, idx) => {
+                    if (idx === activeImgIndex) {
+                        thumb.classList.add("active");
+                        thumb.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                    } else {
+                        thumb.classList.remove("active");
+                    }
+                });
+            }
+            
+            if (prevBtn) {
+                prevBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    updateActiveImage(activeImgIndex - 1);
+                });
+            }
+            
+            if (nextBtn) {
+                nextBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    updateActiveImage(activeImgIndex + 1);
+                });
+            }
+            
+            thumbs.forEach(thumb => {
+                thumb.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    const index = parseInt(thumb.dataset.index);
+                    updateActiveImage(index);
+                });
+            });
+        }
 
         // Bind inner detail modal buttons
         const detailBookBtn = document.getElementById("detail-book-btn");
