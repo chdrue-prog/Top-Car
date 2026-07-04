@@ -2457,6 +2457,14 @@ img {
     max-height: 90vh;
 }
 
+.modal form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+}
+
 .modal-header {
     padding: 16px 20px;
     border-bottom: 1px solid var(--border);
@@ -2468,6 +2476,8 @@ img {
 .modal-body {
     padding: 20px;
     overflow-y: auto;
+    flex: 1;
+    min-height: 0;
 }
 
 .modal-footer {
