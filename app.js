@@ -505,61 +505,90 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <div class="detail-content-wrap">
                 <div class="detail-header">
-                    <span class="detail-category-tag">${car.brand}</span>
                     <h2 class="detail-car-title">${car.brand} ${car.model}</h2>
                     <p class="detail-car-subtitle">${car.variant}</p>
+                </div>
+
+                <!-- Blue Action Bar -->
+                <div class="detail-action-blue-bar">
+                    <div class="action-blue-top">
+                        <div>
+                            <div class="action-price-value">${car.price.toLocaleString("da-DK")} kr.</div>
+                            <div class="action-price-label">Kontantpris</div>
+                        </div>
+                        <span class="material-symbols-outlined action-info-icon" title="Prisen er kontantpris inkl. leveringsomkostninger">info</span>
+                    </div>
                     
-                    <div class="detail-price-box">
-                        <div class="detail-price-amount">${car.price.toLocaleString("da-DK")} kr.</div>
-                        <div class="detail-price-sub">Kontantpris inkl. lev. omk.</div>
+                    <div class="action-blue-buttons">
+                        <button class="action-blue-btn" id="detail-book-btn" data-id="${car.id}">
+                            <span class="material-symbols-outlined">vpn_key</span>
+                            Prøvetur
+                        </button>
+                        <a href="#about-contact" id="detail-contact-btn" class="action-blue-btn" style="text-decoration: none;">
+                            <span class="material-symbols-outlined">contact_mail</span>
+                            Spørgsmål
+                        </a>
                     </div>
                 </div>
 
-                <!-- Modern Key Specs Grid -->
-                <div class="key-specs-grid">
-                    <div class="key-spec-card">
-                        <span class="material-symbols-outlined key-spec-icon">calendar_month</span>
-                        <span class="key-spec-label">Modelår</span>
-                        <span class="key-spec-value">${car.year}</span>
+                <!-- Technical Specs New Grid -->
+                <div class="detail-specs-new-grid">
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Første indregistreringsår</span>
+                        <span class="spec-new-value">${car.year}</span>
                     </div>
-                    <div class="key-spec-card">
-                        <span class="material-symbols-outlined key-spec-icon">speed</span>
-                        <span class="key-spec-label">Kilometer</span>
-                        <span class="key-spec-value">${car.mileage.toLocaleString("da-DK")} km</span>
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Farve</span>
+                        <span class="spec-new-value">${car.color || '-'}</span>
                     </div>
-                    <div class="key-spec-card">
-                        <span class="material-symbols-outlined key-spec-icon">local_gas_station</span>
-                        <span class="key-spec-label">Drivmiddel</span>
-                        <span class="key-spec-value">${car.fuelType}</span>
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Km</span>
+                        <span class="spec-new-value">${car.mileage.toLocaleString("da-DK")}</span>
                     </div>
-                    <div class="key-spec-card">
-                        <span class="material-symbols-outlined key-spec-icon">settings_input_hdmi</span>
-                        <span class="key-spec-label">Gear</span>
-                        <span class="key-spec-value">${car.transmission}</span>
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Geartype</span>
+                        <span class="spec-new-value">${car.transmission}</span>
                     </div>
-                </div>
-
-                <!-- Tech Specs Table -->
-                <div class="specs-section">
-                    <h3 class="detail-section-title"><span class="material-symbols-outlined">info</span> Specifikationer</h3>
-                    <div class="specs-table-container">
-                        <table class="detail-specs-table">
-                            <tr><td class="label">Motor / Ydelse</td><td class="value">${car.engine || '-'}</td></tr>
-                            <tr><td class="label">Forbrug</td><td class="value">${car.consumption || '-'}</td></tr>
-                            <tr><td class="label">Farve</td><td class="value">${car.color || '-'}</td></tr>
-                            <tr><td class="label">Grøn ejerafgift</td><td class="value">${car.tax || '-'}</td></tr>
-                        </table>
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Drivmiddel</span>
+                        <span class="spec-new-value">${car.fuelType}</span>
+                    </div>
+                    <div class="spec-new-item">
+                        <span class="spec-new-label">Forbrug</span>
+                        <span class="spec-new-value">${car.consumption || '-'}</span>
                     </div>
                 </div>
 
                 <!-- Description Box -->
                 <div class="desc-section">
-                    <h3 class="detail-section-title"><span class="material-symbols-outlined">description</span> Beskrivelse</h3>
-                    <div class="detail-desc-box">${car.description}</div>
+                    <h3 class="detail-section-title" style="margin-bottom: 12px; font-size: 15px; font-weight: 700; color: var(--text-primary); display: flex; align-items: center; gap: 6px;">
+                        <span class="material-symbols-outlined" style="font-size: 20px; color: var(--accent);">description</span> 
+                        Beskrivelse
+                    </h3>
+                    <div class="detail-desc-box" style="line-height: 1.6; font-size: 14.5px; color: var(--text-secondary); background: var(--bg-surface-alt); padding: 20px; border-radius: var(--radius-md); border: 1px solid var(--border); white-space: pre-wrap;">${car.description}</div>
                 </div>
 
-                <!-- CTA Actions -->
-                ${ctaButtonsHTML}
+                <!-- Contact Strip -->
+                <div class="detail-contact-strip">
+                    <a href="tel:64473800" class="contact-strip-btn">
+                        <div class="contact-strip-icon-circle">
+                            <span class="material-symbols-outlined">call</span>
+                        </div>
+                        <span>Ring op</span>
+                    </a>
+                    <a href="mailto:info@topcar.dk" class="contact-strip-btn">
+                        <div class="contact-strip-icon-circle">
+                            <span class="material-symbols-outlined">mail</span>
+                        </div>
+                        <span>Skriv til os</span>
+                    </a>
+                    <a href="#about-contact" id="detail-alt-contact" class="contact-strip-btn">
+                        <div class="contact-strip-icon-circle">
+                            <span class="material-symbols-outlined">phone_callback</span>
+                        </div>
+                        <span>Bliv ringet op</span>
+                    </a>
+                </div>
             </div>
         `;
 

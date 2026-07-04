@@ -2002,7 +2002,7 @@ img {
     background-color: rgba(3, 7, 18, 0.7);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    z-index: 149;
+    z-index: 1099;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.3s;
@@ -2019,10 +2019,10 @@ img {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 760px;
+    max-width: 1120px;
     height: 100%;
     background-color: var(--bg-surface);
-    z-index: 150;
+    z-index: 1100;
     box-shadow: -10px 0 30px rgba(0,0,0,0.4);
     transition: right 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     overflow: hidden;
@@ -2239,7 +2239,7 @@ img {
 .detail-car-title {
     font-size: 28px;
     font-weight: 800;
-    color: var(--text-main);
+    color: var(--text-primary);
     margin-bottom: 4px;
     line-height: 1.2;
 }
@@ -2429,7 +2429,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%) scale(0.96);
     background-color: var(--bg-surface);
-    z-index: 150;
+    z-index: 1200;
     width: 90%;
     max-width: 680px;
     max-height: 90vh;
@@ -2721,3 +2721,214 @@ img {
         width: auto;
     }
 }
+
+/* Redesigned Car Details Split-Screen Modal */
+@media (min-width: 992px) {
+    .detail-modal-body {
+        display: grid !important;
+        grid-template-columns: 1.15fr 0.85fr !important;
+        height: 100% !important;
+        overflow: hidden !important;
+    }
+    
+    .detail-gallery-container {
+        height: 100% !important;
+        background-color: #0b111e;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+        border-right: 1px solid var(--border);
+    }
+    
+    .detail-gallery-main-wrapper {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        background-color: #0b111e;
+        aspect-ratio: auto !important;
+        height: 0 !important; /* Forces flexbox to distribute size */
+        min-height: 0;
+    }
+
+    .detail-gallery-main-wrapper img {
+        max-height: 100%;
+        max-width: 100%;
+        width: auto !important;
+        height: auto !important;
+        object-fit: contain !important;
+    }
+    
+    .detail-gallery-thumbs-strip {
+        padding: 16px 20px !important;
+        background-color: #080d17 !important;
+    }
+    
+    .detail-content-wrap {
+        height: 100% !important;
+        overflow-y: auto !important;
+        padding: 32px 36px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: var(--bg-surface);
+    }
+}
+
+/* Blue Action Bar Styles */
+.detail-action-blue-bar {
+    background: linear-gradient(135deg, var(--accent) 0%, #1e40af 100%);
+    color: #fff;
+    padding: 20px 24px;
+    border-radius: var(--radius-md);
+    box-shadow: 0 8px 24px rgba(29, 78, 216, 0.15);
+}
+
+.action-blue-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+}
+
+.action-price-value {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -0.5px;
+}
+
+.action-price-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.action-info-icon {
+    font-size: 20px;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.action-info-icon:hover {
+    opacity: 1;
+}
+
+.action-blue-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.action-blue-btn {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 10px;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.action-blue-btn:hover {
+    background: rgba(255, 255, 255, 0.16);
+    transform: translateY(-1.5px);
+    border-color: rgba(255, 255, 255, 0.35);
+}
+
+.action-blue-btn .material-symbols-outlined {
+    font-size: 22px;
+}
+
+/* Technical Specs New Grid */
+.detail-specs-new-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px 20px;
+    background-color: var(--bg-surface-alt);
+    padding: 20px 24px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border);
+}
+
+.spec-new-item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.spec-new-label {
+    font-size: 11px;
+    color: var(--text-secondary);
+    text-transform: capitalize;
+    opacity: 0.8;
+}
+
+.spec-new-value {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+/* Contact Strip */
+.detail-contact-strip {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0 10px 0;
+    border-top: 1px solid var(--border);
+    margin-top: 10px;
+}
+
+.contact-strip-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 0.2s ease;
+}
+
+.contact-strip-btn:hover {
+    color: #1d4ed8;
+    transform: translateY(-1.5px);
+}
+
+.contact-strip-icon-circle {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 1.5px solid rgba(37, 99, 235, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    background-color: var(--bg-surface-alt);
+}
+
+.contact-strip-btn:hover .contact-strip-icon-circle {
+    border-color: var(--accent);
+    background-color: rgba(37, 99, 235, 0.05);
+}
+
+.contact-strip-icon-circle .material-symbols-outlined {
+    font-size: 22px;
+}
+
