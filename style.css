@@ -2471,7 +2471,7 @@ img {
 }
 
 .modal-footer {
-    padding: 12px 20px;
+    padding: 16px 24px;
     border-top: 1px solid var(--border);
     display: flex;
     justify-content: flex-end;
@@ -2479,32 +2479,141 @@ img {
     background-color: var(--bg-surface-alt);
 }
 
-/* Selected Car Preview inside Booking Modal */
-.selected-car-preview {
+.modal-footer .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    transition: all 0.2s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.modal-footer .btn-outline {
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+}
+
+.modal-footer .btn-outline:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    color: var(--text-primary);
+}
+
+.modal-footer .btn-primary {
+    background: linear-gradient(135deg, var(--accent) 0%, #1d4ed8 100%);
+    color: #fff;
+    border: none;
+    box-shadow: 0 4px 10px rgba(37, 99, 235, 0.15);
+}
+
+.modal-footer .btn-primary:hover {
+    transform: translateY(-1.5px);
+    box-shadow: 0 6px 14px rgba(37, 99, 235, 0.28);
+}
+
+.modal-footer .btn-primary:active {
+    transform: translateY(0);
+}
+
+/* Selected Car Banner inside Booking Modal */
+.booking-car-banner {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 12px;
+    padding: 14px 18px;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, var(--bg-surface-alt) 0%, rgba(var(--primary-rgb), 0.04) 100%);
     border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 20px;
+}
+
+.booking-car-img-wrapper {
+    width: 90px;
+    height: 60px;
     border-radius: var(--radius-sm);
-    background-color: var(--bg-surface-alt);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.selected-car-preview img {
-    width: 80px;
-    height: 50px;
+.booking-car-img-wrapper img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 4px;
 }
 
-.selected-car-preview h4 {
-    font-size: 14px;
-    margin-bottom: 2px;
+.booking-car-info {
+    flex: 1;
 }
 
-.selected-car-preview p {
-    font-size: 13px;
+.booking-car-info h4 {
+    font-size: 15px;
     font-weight: 700;
+    color: var(--text-primary);
+    margin: 0 0 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.booking-car-info p {
+    font-size: 14px;
+    font-weight: 800;
+    color: var(--accent);
+    margin: 0;
+}
+
+/* Modal Close Button */
+.modal-close-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: var(--bg-surface-alt);
+    border: 1px solid var(--border);
+    color: var(--text-secondary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close-btn:hover {
+    background-color: var(--accent);
+    color: #fff;
+    transform: rotate(90deg);
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.2);
+}
+
+/* Input Fields with Icons */
+.input-with-icon-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.input-with-icon-wrapper .material-symbols-outlined {
+    position: absolute;
+    left: 14px;
+    color: var(--text-muted);
+    pointer-events: none;
+    font-size: 20px;
+    transition: color 0.2s ease;
+}
+
+.input-with-icon-wrapper input,
+.input-with-icon-wrapper select {
+    padding-left: 44px !important;
+}
+
+.input-with-icon-wrapper input:focus ~ .material-symbols-outlined,
+.input-with-icon-wrapper select:focus ~ .material-symbols-outlined {
     color: var(--accent);
 }
 

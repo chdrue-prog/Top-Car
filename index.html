@@ -746,61 +746,87 @@
     <div id="admin-modal-overlay" class="modal-overlay"></div>
 
     <!-- Test Drive Booking Modal -->
-    <div id="test-drive-modal" class="modal">
-        <div class="modal-dialog modal-sm">
+    <div id="test-drive-modal" class="modal modal-sm">
+        <div class="modal-dialog">
             <div class="modal-header">
                 <h3>Book en prøvetur</h3>
-                <button id="td-modal-close" class="icon-button" aria-label="Luk vindue">
+                <button id="td-modal-close" class="modal-close-btn" aria-label="Luk vindue">
                     <span class="material-symbols-outlined">close</span>
                 </button>
             </div>
             <form id="test-drive-form">
                 <input type="hidden" id="td-car-id" />
                 <div class="modal-body">
-                    <div class="selected-car-preview card">
-                        <img id="td-car-img" src="" alt="Bil preview" />
-                        <div>
-                            <h4 id="td-car-title">VW Up</h4>
+                    <div class="booking-car-banner">
+                        <div class="booking-car-img-wrapper">
+                            <img id="td-car-img" src="" alt="Bil preview" />
+                        </div>
+                        <div class="booking-car-info">
+                            <h4>
+                                <span class="material-symbols-outlined" style="font-size: 18px; color: var(--accent); vertical-align: middle;">directions_car</span>
+                                <span id="td-car-title">VW Up</span>
+                            </h4>
                             <p id="td-car-price">74.900 kr.</p>
                         </div>
                     </div>
 
                     <div class="form-group mt-4">
                         <label for="td-date">Ønsket dato *</label>
-                        <input type="date" id="td-date" required />
+                        <div class="input-with-icon-wrapper">
+                            <input type="date" id="td-date" required />
+                            <span class="material-symbols-outlined">calendar_month</span>
+                        </div>
                     </div>
 
-                    <div class="form-group mt-2">
+                    <div class="form-group mt-3">
                         <label for="td-time">Ønsket tidspunkt *</label>
-                        <select id="td-time" required>
-                            <option value="" disabled selected>Tidspunkt...</option>
-                            <option value="09:00">09:00</option>
-                            <option value="10:30">10:30</option>
-                            <option value="13:00">13:00</option>
-                            <option value="15:00">15:00</option>
-                            <option value="16:00">16:00</option>
-                        </select>
+                        <div class="input-with-icon-wrapper">
+                            <select id="td-time" required>
+                                <option value="" disabled selected>Vælg tidspunkt...</option>
+                                <option value="09:00">Kl. 09:00</option>
+                                <option value="10:30">Kl. 10:30</option>
+                                <option value="13:00">Kl. 13:00</option>
+                                <option value="15:00">Kl. 15:00</option>
+                                <option value="16:00">Kl. 16:00</option>
+                            </select>
+                            <span class="material-symbols-outlined">schedule</span>
+                        </div>
                     </div>
 
-                    <div class="form-group mt-2">
+                    <div class="form-group mt-3">
                         <label for="td-name">Dit fulde navn *</label>
-                        <input type="text" id="td-name" placeholder="F.eks. Peter Hansen" required />
+                        <div class="input-with-icon-wrapper">
+                            <input type="text" id="td-name" placeholder="F.eks. Peter Hansen" required />
+                            <span class="material-symbols-outlined">person</span>
+                        </div>
                     </div>
 
-                    <div class="form-grid mt-2">
+                    <div class="form-grid mt-3">
                         <div class="form-group">
                             <label for="td-phone">Telefon *</label>
-                            <input type="tel" id="td-phone" placeholder="F.eks. 64473800" required />
+                            <div class="input-with-icon-wrapper">
+                                <input type="tel" id="td-phone" placeholder="F.eks. 64473800" required />
+                                <span class="material-symbols-outlined">call</span>
+                            </div>
                         </div>
                         <div class="form-group">
                             <label for="td-email">E-mail *</label>
-                            <input type="email" id="td-email" placeholder="F.eks. peter@email.dk" required />
+                            <div class="input-with-icon-wrapper">
+                                <input type="email" id="td-email" placeholder="F.eks. peter@email.dk" required />
+                                <span class="material-symbols-outlined">mail</span>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="td-cancel" class="btn btn-outline">Annuller</button>
-                    <button type="submit" class="btn btn-primary">Bekræft booking</button>
+                    <button type="button" id="td-cancel" class="btn btn-outline">
+                        <span class="material-symbols-outlined">close</span>
+                        Annuller
+                    </button>
+                    <button type="submit" class="btn btn-primary">
+                        <span class="material-symbols-outlined">check_circle</span>
+                        Bekræft booking
+                    </button>
                 </div>
             </form>
         </div>
