@@ -2101,11 +2101,7 @@ img {
 }
 
 .detail-hero-gradient {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom, rgba(15, 23, 42, 0.2) 0%, rgba(15, 23, 42, 0.8) 100%);
-    z-index: 2;
-    pointer-events: none;
+    display: none;
 }
 
 .detail-gallery-main-wrapper .badge {

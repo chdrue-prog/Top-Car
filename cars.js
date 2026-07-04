@@ -20,17 +20,17 @@ const defaultCars = [
             "Glastag",
             "Navigation"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/33e23052-10ed-44e6-bf3b-37013c28ef1d.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/33e23052-10ed-44e6-bf3b-37013c28ef1d.jpeg?class=S1600X1200",
         "description": "PANORAMA GLASTAG, 16\" ALUFÆLGE, NAVIGATION VIA APPEL CARPLAY, HÅNDFRI MOBIL, BLUETOOTH, ADAPTIV FARTPILOT, BAKKAMERA, SENSOR BAG, KLIMA ANLÆG, SÆDEVARME, EN BIL DER HAR DET HELE, VI TILBYDER SUPER BILLIG FINANSIERING MED ELLER UDEN UDBETALING, VI HAR NR. PLADER TIL OMG . LEV . SE MERE PÅ TOPCAR.DK, ...",
         "link": "https://www.bilbasen.dk/brugt/bil/peugeot/208/12-puretech-100-allure-sky-5d/6180204",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/33e23052-10ed-44e6-bf3b-37013c28ef1d.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/bf579766-1d60-4e9f-b9d7-f6c233e3c5b1.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/fe574f84-16c6-4891-a176-8e0e54d53286.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/de906846-19fd-4440-8781-a3802c31f686.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/7be5a105-c9f8-4cfd-bb67-abafaeab9e7e.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/33e23052-10ed-44e6-bf3b-37013c28ef1d.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/bf579766-1d60-4e9f-b9d7-f6c233e3c5b1.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/fe574f84-16c6-4891-a176-8e0e54d53286.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/de906846-19fd-4440-8781-a3802c31f686.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/7be5a105-c9f8-4cfd-bb67-abafaeab9e7e.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -53,15 +53,15 @@ const defaultCars = [
             "Hybrid",
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/7c43b7a5-9936-442d-926d-41087bc5d210.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/7c43b7a5-9936-442d-926d-41087bc5d210.jpeg?class=S1600X1200",
         "description": "MEGET VELHOLDT , 16\" ALUFÆLGE MED HELÅRSDÆK , AIRCON , APPEL CARPLAY , TÅGELYGTER , HÅNDFRI MOBIL , BLUETOOTH , EL- SPEJLE M VARME , BAKKAMERA , DAB RADIO , TAGRÆLLING , DENNE BIL KAN FINANSIERERS TIL 2.034 KR OVER 84 MDR. UDEN UDBETALING , Oplysninger Fra DMR: El-Betjente Forreste Sideruder, Centra...",
         "link": "https://www.bilbasen.dk/brugt/bil/suzuki/ignis/12-mhybrid-active-5d/6887340",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/7c43b7a5-9936-442d-926d-41087bc5d210.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/74d3f5cf-0642-44fd-a9aa-2c23ad6dda61.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/7b63f394-d38d-4366-bd04-32b77b40e268.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/478deae9-14f9-4046-bfc6-55ea5b70a2eb.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/04f38a33-ac78-4d31-abdc-cf5946f72808.jpeg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/7c43b7a5-9936-442d-926d-41087bc5d210.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/74d3f5cf-0642-44fd-a9aa-2c23ad6dda61.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/7b63f394-d38d-4366-bd04-32b77b40e268.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/478deae9-14f9-4046-bfc6-55ea5b70a2eb.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/04f38a33-ac78-4d31-abdc-cf5946f72808.jpeg?class=S1600X1200"
         ]
     },
     {
@@ -84,17 +84,17 @@ const defaultCars = [
             "Hybrid",
             "Automatgear"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/86b97fef-363b-4c44-9f93-b159b37f9a52.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/86b97fef-363b-4c44-9f93-b159b37f9a52.jpeg?class=S1600X1200",
         "description": "NAVIGATION , 17\" ALUFÆLGE , HÅNDFRI MOBIL , BLUETOOTH , SPORTS STOLE , DEL LÆDER , P- SENSOR FOR + BAG , FULD SERVICE , UNDERVOGNSBEHANDLET I 2022 , KLIMA ANLÆG , HELÅRSDÆK , HUSK VI TILBYDER ATTRAKTIV FINANSIERING MED ELLER UDEN UDBETALING , SE MERE PÅ TOPCAR.DK , Aut.Gear/Tiptronic, 17\" Alufælge, ...",
         "link": "https://www.bilbasen.dk/brugt/bil/bmw/225xe/15-active-tourer-iperformance-aut-5d/6300060",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/86b97fef-363b-4c44-9f93-b159b37f9a52.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/1827bd88-edf5-44ea-ad21-72202bb03e34.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/b1c045ec-23e6-42f3-808a-fa8e01ee26db.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/4bcce840-1f82-4326-a6d1-60b2bc9e72e8.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/bb66c16c-511a-43d8-a8c1-14663da61a8f.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/86b97fef-363b-4c44-9f93-b159b37f9a52.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/1827bd88-edf5-44ea-ad21-72202bb03e34.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/b1c045ec-23e6-42f3-808a-fa8e01ee26db.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/4bcce840-1f82-4326-a6d1-60b2bc9e72e8.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/bb66c16c-511a-43d8-a8c1-14663da61a8f.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -116,17 +116,17 @@ const defaultCars = [
         "tags": [
             "Automatgear"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/a17b28f2-9c06-42dd-b930-d6b5d05bb1f0.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/a17b28f2-9c06-42dd-b930-d6b5d05bb1f0.jpeg?class=S1600X1200",
         "description": "BEMÆRK UDSTYR !!!!! , 2021 MODEL SOMMER SAMT VINTERHJUL , ADAPTIV FARTPILOT , APPEL CARPLAY , HÅNDFRI MOBIL , BLUETOOTH , SÆDEVARME , VARME I RAT , KLIMA ANLÆG , LED LYGTER FOR OG BAG , LYS OG SYN PAKKE , VINTERPAKKE , DK PAKKE , LANE ASSIST , P- SENSOR FOR OG BAG , NØGLEFRI START , EL- HÅNDBREMSE ,...",
         "link": "https://www.bilbasen.dk/brugt/bil/vw/golf-viii/10-tsi-110-5d/6873785",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/a17b28f2-9c06-42dd-b930-d6b5d05bb1f0.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/e1e70d15-94b2-4d10-b2ef-0a26aaf11817.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/91e50094-ef47-454e-8856-733b1bacb17a.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/8729e618-01a2-45bd-b66d-ab4ccb4058e7.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/f40db529-fc97-4fed-85d0-3a1e3e34658c.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/a17b28f2-9c06-42dd-b930-d6b5d05bb1f0.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/e1e70d15-94b2-4d10-b2ef-0a26aaf11817.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/91e50094-ef47-454e-8856-733b1bacb17a.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/8729e618-01a2-45bd-b66d-ab4ccb4058e7.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/f40db529-fc97-4fed-85d0-3a1e3e34658c.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -149,17 +149,17 @@ const defaultCars = [
             "Navigation",
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/0e231ddb-8dd9-4198-88a6-b66ef77cbe69.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/0e231ddb-8dd9-4198-88a6-b66ef77cbe69.jpeg?class=S1600X1200",
         "description": "NAVIGATION VIA APPEL CAR PLAY , FARTPILOT , SÆDEVARME , KLIMA , HÅNDFRI MOBIL , BLUETOOTH , FULD SERVICE , EN EJER , 0 FEJL , DER TILBYDES ATTRAKTIV FINANSIERING , MED ELLER UDEN UDBETALING , SE MERE PÅ TOPCAR.DK , Kørecomputer, Bagagerumsdækken, Multifunktionsrat, Læderrat, Stofindtræk, Højdejust. ...",
         "link": "https://www.bilbasen.dk/brugt/bil/citron/c3/12-puretech-83-feel-5d/6618249",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/0e231ddb-8dd9-4198-88a6-b66ef77cbe69.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/f7ed9b97-11e4-421f-9f1e-bfa81ec2d28c.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/3182631f-302a-45b9-a813-d70cec523a37.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/6e454806-8d2c-4a0e-bab5-fe34afc6a205.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/19537b14-a807-4b15-846d-e35b89197564.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/0e231ddb-8dd9-4198-88a6-b66ef77cbe69.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/f7ed9b97-11e4-421f-9f1e-bfa81ec2d28c.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/3182631f-302a-45b9-a813-d70cec523a37.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/6e454806-8d2c-4a0e-bab5-fe34afc6a205.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/19537b14-a807-4b15-846d-e35b89197564.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -181,15 +181,15 @@ const defaultCars = [
         "tags": [
             "Velholdt"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/142fe098-e34e-4ae7-8d00-d6a29f584a06.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/142fe098-e34e-4ae7-8d00-d6a29f584a06.jpeg?class=S1600X1200",
         "description": "AFT. TRÆK , 17\" ALUFÆLGE , VINTERHJUL MEDFØLGER , APPEL CARPLAY , AIRCON , P-SENSOR BAG , FARTPILOT , HÅNDFRI MOBIL , BLUETOOTH , HUSK VI GIVER GERNE ET FINANSIERINGS TILBUD , MED / UDEN UDBETALING , Kørecomputer, Bagagerumsdækken, Læderrat, Multifunktionsrat, Stofindtræk, Højdejust. Førersæde, Spli...",
         "link": "https://www.bilbasen.dk/brugt/bil/opel/grandland-x/12-t-130-enjoy-5d/6805794",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/142fe098-e34e-4ae7-8d00-d6a29f584a06.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/b2418303-4ed5-4971-8ef7-f8b4721caef1.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/55e19076-77f7-4e21-b81a-a783a15ac935.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/98556684-2115-4a70-9980-3443b519d2ff.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/a140a98c-bc9a-4f7f-b37e-f39fe602ac28.jpeg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/142fe098-e34e-4ae7-8d00-d6a29f584a06.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/b2418303-4ed5-4971-8ef7-f8b4721caef1.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/55e19076-77f7-4e21-b81a-a783a15ac935.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/98556684-2115-4a70-9980-3443b519d2ff.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/a140a98c-bc9a-4f7f-b37e-f39fe602ac28.jpeg?class=S1600X1200"
         ]
     },
     {
@@ -211,15 +211,15 @@ const defaultCars = [
         "tags": [
             "Automatgear"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/172270dc-200e-4104-9321-1fa4db6725e3.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/172270dc-200e-4104-9321-1fa4db6725e3.jpeg?class=S1600X1200",
         "description": "EN EJERS BIL , FULD SERVICE BOG , UNDERVOGNSBEHANDLET I 2019 & 2024 , KLIMA ANLÆG 2 ZONE , ADAPTIV FARTPILOT , 16\" ALUFÆLGE , 16\" ALUFÆLGE PÅ VINTERDÆK MEDFØLGER , P- SENSOR FOR & BAG , TÅGELYGTER , SÆDEVARME , HÅNDFRI MOBIL , BLUETOOTH , APPEL CARPLAY , APP CONNECT , VINTERPAKKE , DK PAKKE , HUSKE ...",
         "link": "https://www.bilbasen.dk/brugt/bil/vw/golf-sportsvan/15-tsi-150-comfortline-dsg-5d/6810383",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/172270dc-200e-4104-9321-1fa4db6725e3.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/d1aa5ca8-8674-48f5-9c6b-5f285768bd53.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/da70f3f3-0107-4f5a-a03e-9070b7cd3a08.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/9417037c-3130-4a1b-a8ab-d106e14c7151.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/13dd675c-5015-4d49-b1ed-83dd79ca7d8e.jpeg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/172270dc-200e-4104-9321-1fa4db6725e3.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/d1aa5ca8-8674-48f5-9c6b-5f285768bd53.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/da70f3f3-0107-4f5a-a03e-9070b7cd3a08.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/9417037c-3130-4a1b-a8ab-d106e14c7151.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/13dd675c-5015-4d49-b1ed-83dd79ca7d8e.jpeg?class=S1600X1200"
         ]
     },
     {
@@ -242,17 +242,17 @@ const defaultCars = [
             "Automatgear",
             "Navigation"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/d7751a3d-d09d-477e-a351-c0e3a721f537.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/d7751a3d-d09d-477e-a351-c0e3a721f537.jpeg?class=S1600X1200",
         "description": "BEMÆRK 140 HK , 17\" ALUFÆLGE SAMT 16\" ALUFÆLGE M VINTERDÆK , AFT. TRÆK , BAKKAMERA , ORG. NAVIGATION , HÅNDFRI MOBIL , BLUETOOTH , APPEL CARPLAY , TÅGELYGTER , SÆDEVARME , KLIMAANLÆG , LED LYGTER , FARTPILOT , EL-SPEJLE M VARME , EL-RUDER FOR OG BAG , Oplysninger Fra DMR: Tågelygter For., Blinklys I...",
         "link": "https://www.bilbasen.dk/brugt/bil/suzuki/s-cross/14-boosterjet-active-5d/6827244",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/d7751a3d-d09d-477e-a351-c0e3a721f537.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/cd8fe605-274b-4998-a13d-843367f43963.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/62f9fff1-c260-43a4-98ed-d9d112044628.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/facbd456-e88f-48ce-94b5-e1bc6ef88002.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/5e4169eb-ca3f-4e23-bae6-5e1f93825415.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/d7751a3d-d09d-477e-a351-c0e3a721f537.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/cd8fe605-274b-4998-a13d-843367f43963.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/62f9fff1-c260-43a4-98ed-d9d112044628.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/facbd456-e88f-48ce-94b5-e1bc6ef88002.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/5e4169eb-ca3f-4e23-bae6-5e1f93825415.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -274,17 +274,17 @@ const defaultCars = [
         "tags": [
             "Velholdt"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/b85fbf17-4e17-4b99-a49a-30f96d8ff762.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/b85fbf17-4e17-4b99-a49a-30f96d8ff762.jpeg?class=S1600X1200",
         "description": "AIRCONDITION , EL-SPEJLE M VARME , HÅNDFRI MOBIL , BLUETOOTH , APPEL CARPLAY , FARTPILOT , EL- RUDER , LÆDER MULTI RAT , EN EJER , FULD SERVICE VED HYUNDAI , UNDERVOGNSBEHANDLET FRA NY , ARMLÆN , DENNE BIL KAN FINANSIERES MED ELLER UDEN UDBETALING , Oplysninger Fra DMR: 6 Airbags, Læderrat / Gearkno...",
         "link": "https://www.bilbasen.dk/brugt/bil/hyundai/i10/10-mpi-advanced-5d/6906671",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/b85fbf17-4e17-4b99-a49a-30f96d8ff762.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/dc7a9a2c-4db8-4d7b-bf3f-42a79b33e0c3.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/9cccbad2-54bd-45a0-9df6-da6d833f1528.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/202c89b9-381a-4155-8c7b-eef18bacc6c5.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/44f94bd5-7292-4fad-ad04-32d0d0c34aa7.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/b85fbf17-4e17-4b99-a49a-30f96d8ff762.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/dc7a9a2c-4db8-4d7b-bf3f-42a79b33e0c3.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/9cccbad2-54bd-45a0-9df6-da6d833f1528.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/202c89b9-381a-4155-8c7b-eef18bacc6c5.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/44f94bd5-7292-4fad-ad04-32d0d0c34aa7.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -306,17 +306,17 @@ const defaultCars = [
         "tags": [
             "Velholdt"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/cc787f5c-28f3-42bf-9e0c-7c7d319b7470.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/cc787f5c-28f3-42bf-9e0c-7c7d319b7470.jpeg?class=S1600X1200",
         "description": "AFT. TRÆK , 16\" ALUFÆLGE MED HELÅRSDÆK , VARME I SÆDER + VARME I RAT , FARTPILOT , KLIMA ANLÆG , TÅGELYGTER , REGNSENSOR , BAKKAMERA , HÅNDFRI MOBIL , BLUETOOTH , APPEL CARPLAY , UNDERVOGNSBEHANDLET FRA NY , FULD SERVICE , EN EJER , ///// DENNE BIL KAN FINANSIERES MED ELLER UDEN UDBETALING , Oplysni...",
         "link": "https://www.bilbasen.dk/brugt/bil/hyundai/kona/10-t-gdi-trend-5d/6873492",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/cc787f5c-28f3-42bf-9e0c-7c7d319b7470.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/7066a06f-ff0f-4c6a-a27c-ee63de9779fa.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/3490412b-1c4a-41b8-b5f1-a50dec3afc59.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/ba99ee8f-b236-4f95-8963-792266af662e.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/e95df7ec-4f05-48de-96b9-25ea90ebb643.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/cc787f5c-28f3-42bf-9e0c-7c7d319b7470.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/7066a06f-ff0f-4c6a-a27c-ee63de9779fa.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/3490412b-1c4a-41b8-b5f1-a50dec3afc59.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/ba99ee8f-b236-4f95-8963-792266af662e.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/e95df7ec-4f05-48de-96b9-25ea90ebb643.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -338,17 +338,17 @@ const defaultCars = [
         "tags": [
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/e76deaac-6f1d-4105-9211-f4e17358ead2.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/e76deaac-6f1d-4105-9211-f4e17358ead2.jpeg?class=S1600X1200",
         "description": "BEMÆRK KM KUN 27.000 , AIRCON , FARTPILOT . SÆDEVARME , VARME I RAT , HÅNDFRI MOBIL BLUETOOTH , EL- SPEJLE / M VARME , EL- RUDER FOR&BAG , BAKSENSOR , EN BIL DER STÅR SUPER FLOT , HUSK VI TILBYDER FINANSIERING MED / UDEN UDBETALING Oplysninger Fra DMR: Bakalarm, Sædevarme For, El-Spejle M.Varme, Air...",
         "link": "https://www.bilbasen.dk/brugt/bil/hyundai/i20/125-trend-5d/6932869",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/e76deaac-6f1d-4105-9211-f4e17358ead2.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/b02cf943-a5a3-4476-82ae-f940ffb818be.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/ca119567-5a60-4c04-ae7a-71942218ae2a.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/faf9a699-4600-484f-9a7f-59fd57dbef25.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/e0c9592e-3936-4f9a-84de-86afa4c83cdf.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/e76deaac-6f1d-4105-9211-f4e17358ead2.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/b02cf943-a5a3-4476-82ae-f940ffb818be.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/ca119567-5a60-4c04-ae7a-71942218ae2a.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/faf9a699-4600-484f-9a7f-59fd57dbef25.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/e0c9592e-3936-4f9a-84de-86afa4c83cdf.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -370,17 +370,17 @@ const defaultCars = [
         "tags": [
             "Navigation"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/4cd4bf16-6310-4cd6-9f4a-fcaa797662a9.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/4cd4bf16-6310-4cd6-9f4a-fcaa797662a9.jpeg?class=S1600X1200",
         "description": "NU 99.900 KR , SPAR 5.000 KR NAVIGATION , KLIMA , 16\" ALUFÆLGE , FARTPILOT , HÅNDFRI MOBIL , BLUETOOTH , NØGLEFRI START , FARTPILOT , TÅGELYGTER , SÆDEVARME , VINTERHJUL MEDFØLGER , VI TILBYDER FINANSIERING UDEN UDBETALING , LØBETID 96 Mdr. , 1.576 Kr HUSK VI HAR NR. PLADER PÅ LAGER , SE MERE PÅ TOP...",
         "link": "https://www.bilbasen.dk/brugt/bil/ford/focus/10-scti-100-titanium-5d/6144802",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/4cd4bf16-6310-4cd6-9f4a-fcaa797662a9.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/bd384e29-926e-46a8-8a08-9adc617577cd.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/a65113e5-94c7-410e-b56b-5b284d1909eb.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/f124307e-8d20-4498-b04d-ad62445abeb1.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/1a45f1fb-a933-4813-83d3-1a561ac3df1b.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/4cd4bf16-6310-4cd6-9f4a-fcaa797662a9.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/bd384e29-926e-46a8-8a08-9adc617577cd.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/a65113e5-94c7-410e-b56b-5b284d1909eb.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/f124307e-8d20-4498-b04d-ad62445abeb1.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/1a45f1fb-a933-4813-83d3-1a561ac3df1b.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -402,17 +402,17 @@ const defaultCars = [
         "tags": [
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/81c3d55e-c75f-4ebf-9d35-b64f2cd868d3.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/81c3d55e-c75f-4ebf-9d35-b64f2cd868d3.jpeg?class=S1600X1200",
         "description": "HELÅRSDÆK SAMT SOMMERDÆK , APPEL CARPLAY , HÅNDFRI MOBIL , BLUETOOTH , P-SENSOR BAG , BAKKAMERA , KLIMA ANLÆG , TÅGELYGTER , VARME I RAT , SÆDEVARME , FARTPILOT , EL-RUDER FOR & BAG , REGN SENSOR , DAB + RADIO , SERVICE OK VED HYUNDAI , UNDERVOGNSBEHANDLET 2022 , EN BIL DER SKAL SES , HUSK VI TILBYD...",
         "link": "https://www.bilbasen.dk/brugt/bil/hyundai/i20/10-t-gdi-essential-5d/6743997",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/81c3d55e-c75f-4ebf-9d35-b64f2cd868d3.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/f1e661b1-2cf2-4259-b3aa-07a668f2e050.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/29ac57b3-9460-487f-970a-ad571a1157e2.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/b26f1358-1657-4214-b60b-81497a889f83.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/885a2d89-62e1-4305-a1bc-2f102aeb08b3.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/81c3d55e-c75f-4ebf-9d35-b64f2cd868d3.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/f1e661b1-2cf2-4259-b3aa-07a668f2e050.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/29ac57b3-9460-487f-970a-ad571a1157e2.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/b26f1358-1657-4214-b60b-81497a889f83.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/885a2d89-62e1-4305-a1bc-2f102aeb08b3.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -434,17 +434,17 @@ const defaultCars = [
         "tags": [
             "Velholdt"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/95b251ea-dff8-48ae-91ac-a97a516e1d53.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/95b251ea-dff8-48ae-91ac-a97a516e1d53.jpeg?class=S1600X1200",
         "description": "FAST TRÆK , BAKKAMERA , 15\" ALUFÆLGE , AIRCONDITION , FARTPILOT , SÆDEVARME , HÅNDFRI MOBIL , BLUETOOTH , TÅGELYGTER , FULD SERVICE BOG VED TOYTOTA , UNDERVOGNSBEHANDLET FRA NY , RIGTIG FIN BIL , DENNE BIL KAN VI TILBYDE FINANSIERING , MED ELLER UDEN UDBETALING , Kørecomputer, Bagagerumsdækken, Dobb...",
         "link": "https://www.bilbasen.dk/brugt/bil/toyota/yaris/13-vvt-i-t2-limited-5d/6906168",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/95b251ea-dff8-48ae-91ac-a97a516e1d53.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/f09d4f73-f65d-4744-8571-7304e990d148.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/38951ae3-10c9-4db5-a140-48a07ef56f09.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/34b75fa7-a073-44a7-b5f5-de03de60ef05.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/becc81be-ce0b-4fe3-9cc7-c3aae7a3d960.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/95b251ea-dff8-48ae-91ac-a97a516e1d53.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/f09d4f73-f65d-4744-8571-7304e990d148.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/38951ae3-10c9-4db5-a140-48a07ef56f09.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/34b75fa7-a073-44a7-b5f5-de03de60ef05.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/becc81be-ce0b-4fe3-9cc7-c3aae7a3d960.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -467,17 +467,17 @@ const defaultCars = [
             "Hybrid",
             "Automatgear"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/e4727a73-c0e4-4eb7-910a-2834ca8dcfe9.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/e4727a73-c0e4-4eb7-910a-2834ca8dcfe9.jpeg?class=S1600X1200",
         "description": "NAVIGATION , HÅNDFRI MOBIL , BLUETOOTH , BAKKAMERA , 2 ZONET KLIMAANLÆG , FARTPILOT , SÆDEVARME , EL-SPEJLE M. VARME , EN EJER , STÅR PÅ HELÅRSDÆK , FULD SERVICE BOG VED TOYOTA , HUSK AT FÅ ET TILBUD PÅ FINANSIERING MED ELLER UDEN UDBETALING , Oplysninger Fra DMR: Rat Højdejusterbart, Servostyring, ...",
         "link": "https://www.bilbasen.dk/brugt/bil/toyota/yaris/15-hybrid-h2-touch-cvt-5d/6907111",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/e4727a73-c0e4-4eb7-910a-2834ca8dcfe9.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/4b777f0f-7732-43d2-98d4-e1d65e4a3485.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/4de49c45-d256-49d0-99c6-cefbee87e8a5.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/a662f64f-5eba-49d5-8473-874505e4d5b6.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/13d38bf8-5dd7-4ac6-9e39-4c9f3d59bb32.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/e4727a73-c0e4-4eb7-910a-2834ca8dcfe9.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/4b777f0f-7732-43d2-98d4-e1d65e4a3485.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/4de49c45-d256-49d0-99c6-cefbee87e8a5.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/a662f64f-5eba-49d5-8473-874505e4d5b6.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/13d38bf8-5dd7-4ac6-9e39-4c9f3d59bb32.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -499,17 +499,17 @@ const defaultCars = [
         "tags": [
             "Velholdt"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/af0e6360-7a83-405d-91ce-c8dc9b99be8b.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/af0e6360-7a83-405d-91ce-c8dc9b99be8b.jpeg?class=S1600X1200",
         "description": "FAST TRÆK , EN EJER , FULD SERVICE VED TOYOTA , UNDERVOGNSBEHANDLET FRA NY , VINTERHJUL MEDFØLGER , 15\" ALUFÆLGE , BAKKAMERA , FARTPILOT , KLIMAANLÆG , SÆDEVARME , DENNE BIL KAN FINANSIERES UDEN UDBETALING , Oplysninger Fra DMR: Dørhåndtag, Lakerede, Digitalinstrumentering (3-Dimensional), 1G2 Plati...",
         "link": "https://www.bilbasen.dk/brugt/bil/toyota/yaris/15-vvt-ie-t2-premium-5d/6887853",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/af0e6360-7a83-405d-91ce-c8dc9b99be8b.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/09e6a215-7195-4b00-8c77-215321eb1bef.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/010f701a-8582-4453-9677-1a574e5fa680.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/018e8836-b2ff-4a26-81d3-a1d6b4a3ed72.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/28cfdc80-7902-455e-9351-b65928baac1e.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/af0e6360-7a83-405d-91ce-c8dc9b99be8b.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/09e6a215-7195-4b00-8c77-215321eb1bef.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/010f701a-8582-4453-9677-1a574e5fa680.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/018e8836-b2ff-4a26-81d3-a1d6b4a3ed72.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/28cfdc80-7902-455e-9351-b65928baac1e.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -532,17 +532,17 @@ const defaultCars = [
             "Navigation",
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/bf2c308f-8c0f-4651-bbbd-76799fd47e20.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/bf2c308f-8c0f-4651-bbbd-76799fd47e20.jpeg?class=S1600X1200",
         "description": "HÅNDFRI MOBIL , BLUETOOTH , NAVIGATION VIA APPEL CARPLY , 15\" ALUFÆLGE , FARTPILOT , SÆDEVARME , EL- SPEJLE M VARME , EL-RUDER FOR OG BAG , AIRCON , P-SENSOR BAG , DAB + RADIO , VI TILBYDER GERNE FINASIERING MED ELLER UDEN UDBETALING , SE MERE PÅ TOPCAR.DK , Oplysninger Fra DMR: El-Ruder For Og Bag,...",
         "link": "https://www.bilbasen.dk/brugt/bil/mazda/2/15-skyactiv-g-90-sky-5d/6641145",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/bf2c308f-8c0f-4651-bbbd-76799fd47e20.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/0c91b633-ba7c-4d59-8c9d-7c6f8f7606b9.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/b62d5299-627c-4530-88b3-9d4dc60a25b2.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/1cf9f923-51f7-48d9-aae7-381225c2871a.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/ff1bd856-562a-4e82-b5e4-2cba90ddd0a5.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/bf2c308f-8c0f-4651-bbbd-76799fd47e20.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/0c91b633-ba7c-4d59-8c9d-7c6f8f7606b9.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/b62d5299-627c-4530-88b3-9d4dc60a25b2.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/1cf9f923-51f7-48d9-aae7-381225c2871a.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/ff1bd856-562a-4e82-b5e4-2cba90ddd0a5.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -565,17 +565,17 @@ const defaultCars = [
             "Hybrid",
             "Automatgear"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/a58cc717-4177-40ea-a5c7-d345f5fcbbfd.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/a58cc717-4177-40ea-a5c7-d345f5fcbbfd.jpeg?class=S1600X1200",
         "description": "17\" ALUFÆLGE , NÆSTEN NYE VINTERHJUL MEDFØLGER , UNDERVOGNSBEHANDLET I 2024 , BAKKAMERA , P- SENSOR FOR OG BAG , NAVIGATION , HÅNDFRI MOBIL , BLUETOOTH , VARME I RAT , SÆDEVARME , VI TILBYDER FINANSIERING MED ELLER UDEN UDBETALIG VED SANTANDER , EN BIL DER STÅR SOM NY , Oplysninger Fra DMR: Renault ...",
         "link": "https://www.bilbasen.dk/brugt/bil/renault/captur/16-e-tech-intens-5d/6801480",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/a58cc717-4177-40ea-a5c7-d345f5fcbbfd.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/383de876-8ae7-4207-9f2d-ba6a7204f11a.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/de33f353-5bb6-4b69-95e7-97715a55e75a.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/225e2888-734d-42e7-9a86-b30903bc87e9.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/7f50af45-441b-459f-9799-ed9c2e1a2bfa.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/a58cc717-4177-40ea-a5c7-d345f5fcbbfd.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/383de876-8ae7-4207-9f2d-ba6a7204f11a.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/de33f353-5bb6-4b69-95e7-97715a55e75a.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/225e2888-734d-42e7-9a86-b30903bc87e9.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/7f50af45-441b-459f-9799-ed9c2e1a2bfa.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/77f30c1e-fa11-47a6-a477-c28a98c39f6c.jpg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/497fe061-9928-4967-9986-ffdec8ca23e4.jpg?class=S1600X1200"
         ]
     },
     {
@@ -598,15 +598,15 @@ const defaultCars = [
             "Navigation",
             "Lavt km-tal"
         ],
-        "image": "https://billeder.bilbasen.dk/bilinfo/b483afb6-72a5-4ed4-af19-cf2985307f01.jpeg?class=S1024X768",
+        "image": "https://billeder.bilbasen.dk/bilinfo/b483afb6-72a5-4ed4-af19-cf2985307f01.jpeg?class=S1600X1200",
         "description": "BEMÆRK KUN 19.000 KM , EN EJER , FULD SERVICE , UNDERVOGNSBEHANDLET , 2015 & 2021 , NAVIGATION , BAKKAMERA , HÅNDFRI MOBIL , BLUETOOTH , AIRCON , EN BIL DER STÅR SOM NY , VI KAN TILBYDE FINANSIERING MED / UDEN UDBETALING , Kørecomputer, Bagagerumsdækken, Multifunktionsrat, Læderrat, Stofindtræk, Høj...",
         "link": "https://www.bilbasen.dk/brugt/bil/toyota/aygo/10-vvt-i-x-change-5d/6919134",
         "images": [
-            "https://billeder.bilbasen.dk/bilinfo/b483afb6-72a5-4ed4-af19-cf2985307f01.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/d8c418a2-be61-471c-b734-d70622c7c12f.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/7299463e-4d8f-412b-a181-10883f128d16.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/ee7ea7e9-f663-48b8-a07d-80b62e3d36fe.jpeg?class=S1024X768",
-            "https://billeder.bilbasen.dk/bilinfo/2cc706ea-5207-43c6-adaf-b5859a7a4aab.jpeg?class=S1024X768"
+            "https://billeder.bilbasen.dk/bilinfo/b483afb6-72a5-4ed4-af19-cf2985307f01.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/d8c418a2-be61-471c-b734-d70622c7c12f.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/7299463e-4d8f-412b-a181-10883f128d16.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/ee7ea7e9-f663-48b8-a07d-80b62e3d36fe.jpeg?class=S1600X1200",
+            "https://billeder.bilbasen.dk/bilinfo/2cc706ea-5207-43c6-adaf-b5859a7a4aab.jpeg?class=S1600X1200"
         ]
     }
 ];

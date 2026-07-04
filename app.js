@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function initInventory() {
         const storedInventory = localStorage.getItem("topcar_inventory");
         const dbVersion = localStorage.getItem("topcar_db_version");
-        const currentVersion = "1.3"; // Force upgrade to load live parsed cars with images slider
+        const currentVersion = "1.4"; // Force upgrade to load live parsed cars with images slider and higher resolution
         
         if (storedInventory && dbVersion === currentVersion) {
             try {
