@@ -458,49 +458,83 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!car) return;
 
         // Render full details contents
-        const soldBadgeHTML = car.sold ? `<span class="badge badge-sold mb-4">Solgt</span>` : "";
+        const soldBadgeHTML = car.sold ? `<span class="badge badge-sold">Solgt</span>` : "";
         const ctaButtonsHTML = car.sold 
             ? `<div class="detail-actions-box">
-                <p class="text-center font-bold text-muted">Denne bil er solgt</p>
-                <a href="#contact" id="detail-alt-contact" class="btn btn-outline w-full justify-center">Forhør om lignende bil</a>
+                <p class="text-center font-bold text-muted" style="color: var(--text-secondary); margin-bottom: 8px;">Denne bil er solgt</p>
+                <a href="#about-contact" id="detail-alt-contact" class="btn btn-outline w-full justify-center">Forhør om lignende bil</a>
                </div>`
             : `<div class="detail-actions-box">
                 <button class="btn btn-primary w-full justify-center" id="detail-book-btn" data-id="${car.id}">
                     Book prøvetur
                     <span class="material-symbols-outlined">directions_car</span>
                 </button>
-                <a href="#contact" id="detail-contact-btn" class="btn btn-outline w-full justify-center">Stil et spørgsmål</a>
+                <a href="#about-contact" id="detail-contact-btn" class="btn btn-outline w-full justify-center">Stil et spørgsmål</a>
                </div>`;
 
         carDetailModalBody.innerHTML = `
-            <img class="detail-hero-img" src="${car.image}" alt="${car.brand} ${car.model}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80'" />
+            <div class="detail-hero-wrapper">
+                <img class="detail-hero-img" src="${car.image}" alt="${car.brand} ${car.model}" onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?auto=format&fit=crop&w=800&q=80'" />
+                <div class="detail-hero-gradient"></div>
+                ${soldBadgeHTML}
+            </div>
+            
             <div class="detail-content-wrap">
                 <div class="detail-header">
-                    ${soldBadgeHTML}
-                    <h2>${car.brand} ${car.model}</h2>
-                    <p class="text-secondary">${car.variant}</p>
-                    <div class="detail-price">${car.price.toLocaleString("da-DK")} kr.</div>
+                    <span class="detail-category-tag">${car.brand}</span>
+                    <h2 class="detail-car-title">${car.brand} ${car.model}</h2>
+                    <p class="detail-car-subtitle">${car.variant}</p>
+                    
+                    <div class="detail-price-box">
+                        <div class="detail-price-amount">${car.price.toLocaleString("da-DK")} kr.</div>
+                        <div class="detail-price-sub">Kontantpris inkl. lev. omk.</div>
+                    </div>
                 </div>
 
-                <div class="car-card-specs" style="margin-bottom: 24px;">
-                    ${car.tags ? car.tags.map(t => `<span class="spec-badge" style="background-color: var(--primary-light); color: white;">${t}</span>`).join(" ") : ""}
+                <!-- Modern Key Specs Grid -->
+                <div class="key-specs-grid">
+                    <div class="key-spec-card">
+                        <span class="material-symbols-outlined key-spec-icon">calendar_month</span>
+                        <span class="key-spec-label">Modelår</span>
+                        <span class="key-spec-value">${car.year}</span>
+                    </div>
+                    <div class="key-spec-card">
+                        <span class="material-symbols-outlined key-spec-icon">speed</span>
+                        <span class="key-spec-label">Kilometer</span>
+                        <span class="key-spec-value">${car.mileage.toLocaleString("da-DK")} km</span>
+                    </div>
+                    <div class="key-spec-card">
+                        <span class="material-symbols-outlined key-spec-icon">local_gas_station</span>
+                        <span class="key-spec-label">Drivmiddel</span>
+                        <span class="key-spec-value">${car.fuelType}</span>
+                    </div>
+                    <div class="key-spec-card">
+                        <span class="material-symbols-outlined key-spec-icon">settings_input_hdmi</span>
+                        <span class="key-spec-label">Gear</span>
+                        <span class="key-spec-value">${car.transmission}</span>
+                    </div>
                 </div>
 
-                <h3>Specifikationer</h3>
-                <table class="detail-specs-table">
-                    <tr><td class="label">Årgang</td><td class="value">${car.year}</td></tr>
-                    <tr><td class="label">Kilometertal</td><td class="value">${car.mileage.toLocaleString("da-DK")} km</td></tr>
-                    <tr><td class="label">Drivmiddel</td><td class="value">${car.fuelType}</td></tr>
-                    <tr><td class="label">Gearkasse</td><td class="value">${car.transmission}</td></tr>
-                    <tr><td class="label">Motor/Ydelse</td><td class="value">${car.engine || '-'}</td></tr>
-                    <tr><td class="label">Brændstofforbrug</td><td class="value">${car.consumption || '-'}</td></tr>
-                    <tr><td class="label">Farve</td><td class="value">${car.color || '-'}</td></tr>
-                    <tr><td class="label">Halvårlig afgift</td><td class="value">${car.tax || '-'}</td></tr>
-                </table>
+                <!-- Tech Specs Table -->
+                <div class="specs-section">
+                    <h3 class="detail-section-title"><span class="material-symbols-outlined">info</span> Specifikationer</h3>
+                    <div class="specs-table-container">
+                        <table class="detail-specs-table">
+                            <tr><td class="label">Motor / Ydelse</td><td class="value">${car.engine || '-'}</td></tr>
+                            <tr><td class="label">Forbrug</td><td class="value">${car.consumption || '-'}</td></tr>
+                            <tr><td class="label">Farve</td><td class="value">${car.color || '-'}</td></tr>
+                            <tr><td class="label">Grøn ejerafgift</td><td class="value">${car.tax || '-'}</td></tr>
+                        </table>
+                    </div>
+                </div>
 
-                <h3 style="margin-top: 32px;">Beskrivelse</h3>
-                <div class="detail-desc-box">${car.description}</div>
+                <!-- Description Box -->
+                <div class="desc-section">
+                    <h3 class="detail-section-title"><span class="material-symbols-outlined">description</span> Beskrivelse</h3>
+                    <div class="detail-desc-box">${car.description}</div>
+                </div>
 
+                <!-- CTA Actions -->
                 ${ctaButtonsHTML}
             </div>
         `;
