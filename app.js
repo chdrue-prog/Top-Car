@@ -351,6 +351,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     <div class="car-card-content">
                         <h3 class="car-card-title">${car.brand} ${car.model}</h3>
                         <p class="car-card-subtitle">${car.variant}</p>
+                        <p class="car-card-meta">Modelår: ${car.year} &nbsp;•&nbsp; ${car.mileage.toLocaleString("da-DK")} km</p>
                         <div class="car-card-price-container">
                             <span class="car-card-price">${car.price.toLocaleString("da-DK")} kr.</span>
                             <span class="car-card-price-label">Kontantpris</span>
