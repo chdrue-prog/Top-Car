@@ -41,8 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateAdminUI();
     }
 
-    initInventory();
-    initAdminState();    // Active filters state
+    // Active filters state
     const filters = {
         search: "",
         brand: "",
@@ -444,6 +443,8 @@ document.addEventListener("DOMContentLoaded", () => {
     emptyResetBtn.addEventListener("click", resetFilters);
 
     // Initial population & rendering
+    initInventory();
+    initAdminState();
     populateBrandDropdown();
     renderInventory();
 
@@ -757,18 +758,20 @@ document.addEventListener("DOMContentLoaded", () => {
         workshopBookingForm.reset();
     });
 
-    contactMessageForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const name = document.getElementById("contact-name").value;
-        const email = document.getElementById("contact-email").value;
+    if (contactMessageForm) {
+        contactMessageForm.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const name = document.getElementById("contact-name").value;
+            const email = document.getElementById("contact-email").value;
 
-        showToast(
-            "Besked sendt",
-            `Tak for din henvendelse, ${name}. Vi har sendt en bekræftelse til ${email} og svarer dig hurtigst muligt.`,
-            "success"
-        );
-        contactMessageForm.reset();
-    });
+            showToast(
+                "Besked sendt",
+                `Tak for din henvendelse, ${name}. Vi har sendt en bekræftelse til ${email} og svarer dig hurtigst muligt.`,
+                "success"
+            );
+            contactMessageForm.reset();
+        });
+    }
 
     // ==========================================================================
     // 10. DEALER ADMIN PORTAL (CRUD INVENTORY MANAGEMENT)

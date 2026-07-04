@@ -1174,19 +1174,19 @@ img {
 /* Catalog Grid */
 .cars-grid {
     display: grid;
-    grid-template-cols: 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
 }
 
 @media (min-width: 640px) {
     .cars-grid {
-        grid-template-cols: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (min-width: 1024px) {
     .cars-grid {
-        grid-template-cols: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
