@@ -1967,6 +1967,53 @@ img {
     font-size: 13px;
 }
 
+.footer-left-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .footer-left-info {
+        align-items: flex-start;
+    }
+}
+
+.footer-badges {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.footer-badge-img {
+    height: 38px;
+    width: auto;
+    object-fit: contain;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+}
+
+.about-badges {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.about-badge-img {
+    height: 48px;
+    width: auto;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 6px 14px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+}
+
 .footer-actions {
     display: flex;
     align-items: center;
