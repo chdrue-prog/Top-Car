@@ -14,11 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css?v=15"/>
+    <link rel="stylesheet" href="style.css?v=16"/>
     
     <!-- JavaScript Files -->
-    <script src="cars.js?v=15" defer></script>
-    <script src="app.js?v=15" defer></script>
+    <script src="cars.js?v=16" defer></script>
+    <script src="app.js?v=16" defer></script>
 </head>
 <body class="light-theme"> <!-- Light Slate Metallic Theme set as default middleground -->
     
@@ -36,7 +36,7 @@
             
             <nav class="desktop-nav">
                 <a href="#inventory" class="nav-link active">Vores biler <span class="nav-plus">+</span></a>
-                <a href="#services-section" class="nav-link">Værksted <span class="nav-plus">+</span></a>
+                <a href="#services-section" class="nav-link">Byttepris <span class="nav-plus">+</span></a>
                 <a href="#financing" class="nav-link">Finansiering <span class="nav-plus">+</span></a>
                 <a href="#about-contact" class="nav-link">Kontakt <span class="nav-plus">+</span></a>
             </nav>
@@ -81,7 +81,7 @@
         </div>
         <nav class="drawer-nav">
             <a href="#inventory" class="drawer-link">Vores biler</a>
-            <a href="#services-section" class="drawer-link">Vores Services</a>
+            <a href="#services-section" class="drawer-link">Byttepris</a>
             <a href="#financing" class="drawer-link">Finansiering</a>
             <a href="#about-contact" class="drawer-link">Om os & Kontakt</a>
             <a href="tel:+4564473800" class="btn btn-primary w-full text-center mt-4">Ring til os</a>
@@ -114,11 +114,11 @@
                             <div class="title-split-sub">
                                 <div class="vertical-accent-line"></div>
                                 <div class="title-sub-text">
-                                    Bilforhandler &amp;<br>autoværksted i Vissenbjerg
+                                    Brugtbilsforhandler<br>i Vissenbjerg
                                 </div>
                             </div>
                         </h1>
-                        <p class="hero-desc-main">Top Car Vissenbjerg tilbyder nyere brugte kvalitetsbiler til salg samt et professionelt værksted. Besøg os for en god snak og en kop kaffe.</p>
+                        <p class="hero-desc-main">Top Car Vissenbjerg tilbyder nyere brugte kvalitetsbiler til salg med attraktiv finansiering. Besøg os for en god snak og en kop kaffe.</p>
                         
                         <div class="hero-actions-row">
                             <a href="#inventory" class="btn-hero btn-hero-primary">
@@ -127,10 +127,10 @@
                                     <span class="material-symbols-outlined">directions_car</span>
                                 </span>
                             </a>
-                            <a href="#services-section" class="btn-hero btn-hero-secondary">
-                                <span>Værksted</span>
+                            <a href="#financing" class="btn-hero btn-hero-secondary">
+                                <span>Finansiering</span>
                                 <span class="icon-circle">
-                                    <span class="material-symbols-outlined">build</span>
+                                    <span class="material-symbols-outlined">payments</span>
                                 </span>
                             </a>
                         </div>
@@ -305,19 +305,6 @@
         <!-- Compact Tabbed Service Section -->
         <section id="services-section" class="services-section section-padding">
             <div class="container container-narrow">
-                
-                <!-- Interactive Tabs Bar -->
-                <div class="services-tabs-container">
-                    <button class="service-tab-btn active" data-tab="valuation-tab">
-                        <span class="material-symbols-outlined">calculate</span>
-                        Hvad er min bil værd? (Byttepris)
-                    </button>
-                    <button class="service-tab-btn" data-tab="workshop-tab">
-                        <span class="material-symbols-outlined">build</span>
-                        Book tid på værkstedet
-                    </button>
-                </div>
-
                 <div class="card glass-card service-widget-body">
                     
                     <!-- TAB 1: Valuation Wizard -->
@@ -459,70 +446,6 @@
                                     <button type="submit" class="btn btn-primary">Indsend forespørgsel <span class="material-symbols-outlined">send</span></button>
                                 </div>
                             </div>
-                        </form>
-                    </div>
-
-                    <!-- TAB 2: Workshop Booking Form -->
-                    <div id="workshop-tab" class="service-tab-content hidden">
-                        <div class="text-center mb-6">
-                            <h3>Hurtig tidsbestilling til værkstedet</h3>
-                            <p class="text-secondary">Vi servicerer alle mærker på eget godkendt værksted i Vissenbjerg.</p>
-                        </div>
-
-                        <form id="workshop-booking-form">
-                            <div class="form-group">
-                                <label for="ws-service">Vælg ydelse *</label>
-                                <div class="select-wrapper">
-                                    <select id="ws-service" required>
-                                        <option value="" disabled selected>Vælg service...</option>
-                                        <option value="Serviceeftersyn">Serviceeftersyn</option>
-                                        <option value="Bremseservice">Bremseservice</option>
-                                        <option value="Dækskifte / Hjulskift">Dækskifte / Hjulskift</option>
-                                        <option value="Klargøring til syn">Klargøring til syn</option>
-                                        <option value="Fejlsøgning / Anden reparation">Fejlsøgning / Reparation</option>
-                                    </select>
-                                </div>
-                            </div>
-                            
-                            <div class="form-grid">
-                                <div class="form-group">
-                                    <label for="ws-date">Ønsket dato *</label>
-                                    <input type="date" id="ws-date" required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="ws-time">Ønsket tid *</label>
-                                    <div class="select-wrapper">
-                                        <select id="ws-time" required>
-                                            <option value="" disabled selected>Vælg tidspunkt...</option>
-                                            <option value="Morgen (08:00 - 10:00)">Morgen (08:00 - 10:00)</option>
-                                            <option value="Formiddag (10:00 - 12:00)">Formiddag (10:00 - 12:00)</option>
-                                            <option value="Eftermiddag (12:00 - 15:00)">Eftermiddag (12:00 - 15:00)</option>
-                                            <option value="Sen eftermiddag (15:00 - 17:00)">Sen eftermiddag (15:00 - 17:00)</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="form-grid mt-2">
-                                <div class="form-group">
-                                    <label for="ws-reg">Nummerplade / Reg.nr.</label>
-                                    <input type="text" id="ws-reg" placeholder="AB 12 345" />
-                                </div>
-                                <div class="form-group">
-                                    <label for="ws-phone">Telefon *</label>
-                                    <input type="tel" id="ws-phone" placeholder="F.eks. 64 47 38 00" required />
-                                </div>
-                            </div>
-
-                            <div class="form-group mt-2">
-                                <label for="ws-name">Dit Navn *</label>
-                                <input type="text" id="ws-name" placeholder="F.eks. Peter Hansen" required />
-                            </div>
-
-                            <button type="submit" class="btn btn-primary w-full mt-4 justify-center">
-                                Send reservationsanmodning
-                                <span class="material-symbols-outlined">calendar_month</span>
-                            </button>
                         </form>
                     </div>
                 </div>

@@ -108,18 +108,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const estPriceRangeLabel = document.getElementById("est-price-range");
     const valLastPrevBtn = document.getElementById("val-last-prev-btn");
 
-    // Workshop & Contact Forms
-    const workshopBookingForm = document.getElementById("workshop-booking-form");
+    // Contact Forms
     const contactMessageForm = document.getElementById("contact-message-form");
     const toastContainer = document.getElementById("toast-container");
-
-    // Set workshop default date to tomorrow
-    const wsDateInput = document.getElementById("ws-date");
-    if (wsDateInput) {
-        const tomorrow = new Date();
-        tomorrow.setDate(tomorrow.getDate() + 1);
-        wsDateInput.min = tomorrow.toISOString().split("T")[0];
-    }
 
     // Set test drive default date to tomorrow
     const tdDateInput = document.getElementById("td-date");
@@ -128,21 +119,6 @@ document.addEventListener("DOMContentLoaded", () => {
         tomorrow.setDate(tomorrow.getDate() + 1);
         tdDateInput.min = tomorrow.toISOString().split("T")[0];
     }
-
-    // Service Tab Switching
-    const tabButtons = document.querySelectorAll(".service-tab-btn");
-    const tabContents = document.querySelectorAll(".service-tab-content");
-    tabButtons.forEach(btn => {
-        btn.addEventListener("click", () => {
-            tabButtons.forEach(b => b.classList.remove("active"));
-            tabContents.forEach(c => c.classList.add("hidden"));
-            
-            btn.classList.add("active");
-            const activeTabId = btn.dataset.tab;
-            const activeTab = document.getElementById(activeTabId);
-            if (activeTab) activeTab.classList.remove("hidden");
-        });
-    });
 
     // ==========================================================================
     // 3. TOAST NOTIFICATION ENGINE
@@ -876,23 +852,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ==========================================================================
-    // 9. WORKSHOP & CONTACT FORM ANCHORS
+    // 9. CONTACT FORM ANCHOR
     // ==========================================================================
-    workshopBookingForm.addEventListener("submit", (e) => {
-        e.preventDefault();
-        const service = document.getElementById("ws-service").value;
-        const date = document.getElementById("ws-date").value;
-        const time = document.getElementById("ws-time").value;
-        const phone = document.getElementById("ws-phone").value;
-        const name = document.getElementById("ws-name").value;
-
-        showToast(
-            "Booking forespurgt!",
-            `Tak ${name}. Vi har modtaget din forespørgsel om "${service}" d. ${date} i tidsrummet ${time}. Vi sender en SMS til ${phone} med endelig bekræftelse.`,
-            "success"
-        );
-        workshopBookingForm.reset();
-    });
 
     if (contactMessageForm) {
         contactMessageForm.addEventListener("submit", (e) => {
