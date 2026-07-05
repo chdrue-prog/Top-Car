@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function initInventory() {
         const storedInventory = localStorage.getItem("topcar_inventory");
         const dbVersion = localStorage.getItem("topcar_db_version");
-        const currentVersion = "1.7"; // Force upgrade to load clean official car images (excluding competitor ads and dealer banners)
+        const currentVersion = "1.8"; // Force upgrade to load fresh sold states and cache-bust localStorage
         
         if (storedInventory && dbVersion === currentVersion) {
             try {
