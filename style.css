@@ -29,7 +29,7 @@
     --success-bg: rgba(16, 185, 129, 0.1);
     --error: #ef4444;
     --error-bg: rgba(239, 68, 68, 0.1);
-    --sold: #64748b;
+    --sold: #ef4444;
     
     /* Glassmorphism settings for hero elements */
     --glass-bg: rgba(255, 255, 255, 0.85);

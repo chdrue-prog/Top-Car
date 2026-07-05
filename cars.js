@@ -795,7 +795,7 @@ const defaultCars = [
         "color": "Metallak",
         "consumption": "26,3 km/l",
         "tax": "460 kr. / halvårligt",
-        "sold": false,
+        "sold": true,
         "featured": false,
         "tags": [
             "Navigation",
