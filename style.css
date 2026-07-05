@@ -1439,6 +1439,13 @@ img {
     font-weight: 700;
 }
 
+.partner-logo-img {
+    height: 36px;
+    width: auto;
+    object-fit: contain;
+    border-radius: 6px;
+}
+
 .financing-card-text {
     font-size: 14px;
     color: var(--text-secondary);
