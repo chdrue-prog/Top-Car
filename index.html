@@ -14,11 +14,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css?v=18"/>
+    <link rel="stylesheet" href="style.css?v=19"/>
     
     <!-- JavaScript Files -->
-    <script src="cars.js?v=18" defer></script>
-    <script src="app.js?v=18" defer></script>
+    <script src="cars.js?v=19" defer></script>
+    <script src="app.js?v=19" defer></script>
 </head>
 <body class="light-theme"> <!-- Light Slate Metallic Theme set as default middleground -->
     
@@ -94,8 +94,10 @@
         <section class="hero-section">
             <!-- Video Background -->
             <div class="hero-bg">
-                <div class="video-background-container">
-                    <div id="yt-bg-player"></div>
+                <div class="video-background-container video-playing">
+                    <video autoplay muted loop playsinline id="bg-video">
+                        <source src="topcar.mp4" type="video/mp4">
+                    </video>
                 </div>
                 <div class="hero-overlay"></div>
             </div>
